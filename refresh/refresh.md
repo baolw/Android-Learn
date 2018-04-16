@@ -77,3 +77,16 @@ public boolean canChildScrollUp() {
 }
 ```
 
+
+
+![](E:\Project\Android-Learn\src\refresh_1.jpg)
+
+
+
+```java
+x = left + translationX 
+
+y = top + translationY
+```
+
+![](E:\Project\Android-Learn\src\refresh_2.png)

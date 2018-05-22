@@ -3,6 +3,7 @@
 ## 1.关于滑动时的一些方法
 
 **滑动对象**
+
 scrollTo和scrollBy用于滑动View的内容，而不是改变View本身所处的位置。所以，单独的View滑动很少见，更多的是ViewGroup调用scroll方法滑动子控件的位置。比如，使用TextView对象调用scrollTo或者ScrollBy方法，会发现TextView里面的文本内容的位置发生改变，而TextView本身所处的位置没有变化。
 
 **getScrollX（）和getScrollY（）**
